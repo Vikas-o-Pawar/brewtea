@@ -1,0 +1,39 @@
+.mainTeaReviewCardSec {
+  width: 25vw;
+  display: inline-block;
+  font-family: Gotham, sans-serif;
+  text-align: center;
+  padding: 3rem 0rem;
+  border-bottom: 3px solid #fdd144;
+  display: flex;
+  justify-content: center;
+  margin: 0rem 0rem;
+}
+
+.card-mainDiv {
+  max-width: 21vw;
+}
+
+.card-mainDiv > p {
+  line-height: 1.3;
+}
+
+.cardMiniDiv {
+  display: flex;
+}
+
+.aboutUserDiv {
+  width: 13vw;
+}
+
+.aboutUserDiv > h2 {
+  margin: 0.5rem 0rem;
+}
+
+.aboutUserDiv > p {
+  width: 11vw;
+}
+
+.imgDiv img {
+  width: 6vw;
+}

@@ -1,0 +1,30 @@
+.aboutMainDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 117px;
+    grid-gap: 2rem;
+}
+
+.aboutMainDiv section {
+    display: flex;
+    flex-direction: column;
+}
+
+.otherInfoSection {
+    width: 37%;
+}
+
+.underlineSpan{
+    font-size: 14px;
+    background-image: linear-gradient(to right, #fdd144 0%, #fdd144 100%);
+    background-position: left bottom;
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition: all 0.4s ease-in-out;
+    margin: 8px 0px;
+}
+
+.underlineSpan:hover {
+    cursor: pointer;
+    background-size: 18% 2px;
+}

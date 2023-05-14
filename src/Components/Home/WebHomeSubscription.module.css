@@ -1,0 +1,219 @@
+.homeWebSubs {
+  background-image: url("../../Images/BrewTeaHomeIMG1.webp");
+  height: 894px;
+  width: 1349px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Shop subscription Button */
+.btnSubs {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 18px 0px;
+  max-width: 74%;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.homeSubscriptionDiv {
+  height: 500px;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  margin-left: 6rem;
+  margin-top: 5rem;
+  flex-direction: column;
+  width: 36%;
+}
+
+.homeSubscriptionDiv h1 {
+  font-size: 68px;
+  font-weight: 1000;
+  margin: 0;
+  font-family: "Cooper";
+}
+
+.myBtnClass {
+  width: 50%;
+}
+
+.subsInfo h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.subsInfo {
+  width: 1349px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fdd144;
+  justify-content: center;
+  height: 29vh;
+}
+
+.subsInfo p {
+  text-align: center;
+  width: 50%;
+  /* margin-left: 22rem; */
+}
+
+@media (max-width: 768px) {
+  .homeWebSubs {
+    background-image: url("../../Images/BrewTeaHomeIMG1.webp");
+    height: 992px;
+    width: 1349px;
+    background-size: 100% 83%;
+    background-repeat: no-repeat;
+    background-position: 7% -1%;
+    font-family: "Ubuntu", sans-serif;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .homeSubscriptionDiv {
+    max-width: 79%;
+    min-width: 80%;
+    color: white;
+    margin: 43px 38px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homeSubscriptionDiv h1 {
+    font-size: 8.3rem;
+  }
+
+  .homeSubscriptionDiv p {
+    font-size: 1.5rem;
+  }
+
+  .btnSubs {
+    width: 54%;
+    padding: 27px 5px;
+    font-size: 1.8rem;
+  }
+
+  .subsInfo {
+    width: 1349px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    background-color: #fdd144;
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .homeWebSubs {
+    background-image: url("../../Images/smallHomeImg.webp");
+    height: 3200px;
+    width: 1363px;
+    background-size: 100% 72%;
+    background-repeat: no-repeat;
+    background-position: 64% 0%;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .homeSubscriptionDiv h1 {
+    font-size: 12.3rem;
+  }
+
+  .homeSubscriptionDiv p {
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .btnSubs {
+    font-size: 4rem;
+    width: 100%;
+    background: #fdd144;
+    color: black;
+  }
+
+  .subsInfo {
+    width: 1349px;
+    height: 1078px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    background-color: #fdd144;
+    text-align: center;
+  }
+
+  .subsInfo h1 {
+    font-size: 10rem;
+    font-weight: bolder;
+  }
+
+  .subsInfo p {
+    text-align: center;
+    width: 50%;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .homeWebSubs {
+    background-image: url("../../Images/smallHomeImg.webp");
+    height: 3800px;
+    width: 1293px;
+    background-size: 100% 47%;
+    background-repeat: no-repeat;
+    background-position: 64% 0%;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .homeSubscriptionDiv {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 14rem;
+    margin-left: 2rem;
+    position: relative;
+    top: -12rem;
+    height: 1119px;
+  }
+
+  .homeSubscriptionDiv h1 {
+    font-size: 12rem;
+    font-weight: bolder;
+  }
+
+  .homeSubscriptionDiv p {
+    width: 668px;
+    font-size: 4.4rem;
+  }
+
+  .btnSubs {
+    border: none;
+    width: 884px;
+    font-size: 3rem;
+  }
+
+  .subsInfo {
+    width: 1293px;
+    height: 1900px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    background-color: #fdd144;
+    text-align: center;
+  }
+
+  .subsInfo h1 {
+    font-size: 13rem;
+  }
+
+  .subsInfo p {
+    font-size: 4rem;
+  }
+}

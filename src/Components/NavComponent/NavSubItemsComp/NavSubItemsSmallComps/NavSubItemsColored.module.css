@@ -1,0 +1,14 @@
+.coloredSpan {
+    background-color: #fdd144;
+    font-size: 11px;
+    font-weight: 450;
+    padding: 3px 4px;
+    margin: 8px 0px;
+}
+
+.coloredSpan:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}

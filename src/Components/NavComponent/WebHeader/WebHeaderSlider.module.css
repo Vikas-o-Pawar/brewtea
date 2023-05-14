@@ -1,0 +1,10 @@
+.mainSliderDiv {
+  width: 1349px;
+  background: #fdd144;
+}
+
+@media (max-width: 425px) {
+  .mainSliderDiv {
+    width: 1351px;
+  }
+}

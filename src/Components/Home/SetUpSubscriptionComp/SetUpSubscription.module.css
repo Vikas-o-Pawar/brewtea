@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.subscriptionMainSection {
+  margin-top: 7rem;
+}
+
+.subscriptionMainDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.subscriptionDivContainer {
+  border: 2px solid black;
+  border-radius: 12px;
+  position: relative;
+}
+
+.subscriptionHeader {
+  position: relative;
+  top: -3rem;
+  left: 4.8rem;
+  text-align: center;
+  width: 88%;
+}
+
+.subscriptionHeader h1:first-child {
+  font-size: 70px;
+  background-color: white;
+  margin: 0px 0px;
+}
+
+.cancellationDiv {
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 1rem;
+}
+
+.imagesDiv-Flex {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 6.7rem;
+  margin-top: 4rem;
+  padding: 0rem 5.4rem;
+}
+
+.subsImg {
+  height: 110px;
+}
+
+.clockDiv,
+.wheelDiv,
+.jugDiv {
+  max-width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jugContentDiv p:first-child {
+  margin-bottom: 2.4em;
+}
+
+.jugContentDiv,
+.clockContentDiv,
+.wheelContentDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.setUpYourSubsBtnDiv {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 24rem;
+  top: 26.6rem;
+  align-items: center;
+}
+
+.subsBtn {
+  padding: 22px 114px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media (max-width: 320px) {
+  .subscriptionMainSection {
+    width: 1190px;
+    margin: 16rem 3rem;
+  }
+
+  .subscriptionHeader {
+    position: relative;
+    top: -15rem;
+    left: 4.8rem;
+    text-align: center;
+    width: 88%;
+    margin-bottom: -8rem;
+  }
+
+  .subscriptionHeader h1:first-child {
+    font-size: 212px;
+    background-color: white;
+    margin: 0px 0px;
+  }
+
+  .cancellationDiv {
+    padding: 0rem 5rem;
+  }
+
+  .cancellationDiv p:first-child {
+    font-size: 3.8rem;
+  }
+
+  .imagesDiv-Flex {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    padding: 0rem 5.4rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+  }
+
+  .subsImg {
+    height: 500px;
+  }
+
+  .imagesDiv-Flex div {
+    width: 801px;
+    margin-bottom: 5rem;
+  }
+
+  .imagesDiv-Flex div h1 {
+    font-size: 6rem;
+  }
+
+  .imagesDiv-Flex div p {
+    font-size: 4rem;
+  }
+
+  .setUpYourSubsBtnDiv {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 4rem;
+    top: 267rem;
+    align-items: center;
+  }
+
+  .setUpYourSubsBtnDiv .subsBtn {
+    padding: 74px 114px;
+    cursor: pointer;
+    font-size: 4rem;
+    font-weight: bold;
+    border-radius: 174px;
+  }
+
+  .setUpYourSubsBtnDiv a {
+    font-size: 3rem;
+  }
+}

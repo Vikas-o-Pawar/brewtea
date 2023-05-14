@@ -1,0 +1,116 @@
+.faffTeaPotMini {
+  display: grid;
+  grid-template-areas:
+    "mainOne mainTwo"
+    "mainOne mainTwo";
+  padding: 6rem 6rem;
+}
+
+.faff-ImgDiv {
+  grid-area: mainOne;
+  margin-right: 4rem;
+}
+
+.faff-SecDescription {
+  grid-area: mainTwo;
+  margin-top: 2.3rem;
+}
+
+.faff-DescHeader > h1 {
+  font-size: 4rem;
+  font-family: "Cooper";
+}
+
+.faff-DescHeader > p {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.faffColorDiv {
+  margin-bottom: 1rem;
+}
+
+.faffDescPara {
+  margin: 1.4rem 0rem;
+  line-height: 1.4;
+}
+
+.img1 {
+  grid-area: one;
+  width: 332px;
+  height: 342px;
+  border-radius: 10px;
+}
+
+.img2 {
+  grid-area: two;
+  width: 332px;
+  height: 342px;
+  border-radius: 10px;
+}
+
+.img3Gif {
+  width: 351px;
+  height: 431px;
+  border-radius: 10px;
+  grid-area: three;
+}
+
+.faff-ImgDiv {
+  display: grid;
+  /* grid-template-areas:
+    "one two"
+    "one two"
+    "one three"
+    "four three"; */
+  grid-template-areas:
+    "one three"
+    "two three";
+  grid-gap: 1.8rem;
+  max-height: 584px;
+}
+
+.mainQuantityDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.quantityDiv {
+  max-width: 126px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.quantityBtnDiv {
+  max-width: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quantityBtnSubDiv {
+  display: flex;
+  align-items: center;
+}
+
+.quantityBtnDiv button {
+  background-color: white;
+  border: none;
+  font-size: 31px;
+  color: gray;
+}
+
+.trolleyBtnDiv {
+  max-width: 179px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addToTrolleyBtn {
+  cursor: pointer;
+  border-radius: 31px;
+  padding: 9px 33px;
+}

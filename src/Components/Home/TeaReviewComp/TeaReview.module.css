@@ -1,0 +1,25 @@
+.horizontalLineDiv {
+  border-top: 2px solid black;
+  width: 85vw;
+  margin-left: 0rem;
+  margin-bottom: 3rem;
+}
+
+.mainReviewDiv {
+  margin-top: 10rem;
+  padding: 0rem 6rem;
+}
+
+.reviewHeaderDiv {
+  text-align: center;
+}
+
+.reviewHeaderDiv h1 {
+  font-size: 4rem;
+  font-family: Cooper, sans-serif;
+}
+
+.reviewDiv {
+  display: flex;
+  justify-content: center;
+}

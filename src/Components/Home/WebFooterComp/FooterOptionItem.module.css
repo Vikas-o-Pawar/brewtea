@@ -1,0 +1,8 @@
+.footerList {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footerList:hover{
+    font-weight: bold;
+}

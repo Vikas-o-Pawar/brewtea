@@ -1,0 +1,10 @@
+.cancelBtn {
+    border: none;
+    right: 17px;
+    background-color: white;
+    color: gray;
+    top: 0.7rem;
+    font-size: 1.4rem;
+    position: absolute;
+    cursor: pointer;
+}

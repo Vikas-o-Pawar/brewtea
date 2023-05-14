@@ -1,0 +1,25 @@
+.img1Div img,
+.img2Div img,
+.img3Div img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 425px) {
+  .img1Div, 
+  .img2Div,
+  .img3Div  {
+    width: 50vw;
+    height: 50vh;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .img1Div img,
+  .img2Div img,
+  .img3Div img {
+    width: 396vw;
+    height: 240vh;
+  }
+}

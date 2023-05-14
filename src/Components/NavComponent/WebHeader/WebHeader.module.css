@@ -1,0 +1,47 @@
+body {
+  overflow-x: hidden;
+}
+.headerDiv {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdd144;
+  width: 1349px;
+  font-weight: bold;
+  font-size: 15px;
+  /* overflow-x: hidden; */
+}
+
+
+@media (max-width: 425px) {
+  body {
+    overflow-x: auto;
+  }
+  .headerDiv {
+    height: 219px;
+  }
+
+  .headerDiv span:first-child {
+    font-size: 3rem;
+  }
+}
+
+/* for screen sizes  */
+@media (max-width: 320px) {
+  /* Styles for screens with a width of 320px or less */
+  body {
+    overflow-x: auto;
+  }
+  .headerDiv {
+    text-align: center;
+    overflow-x: hidden;
+    height: 198px;
+    max-width: 1281px;
+  }
+
+  .headerDiv span {
+    font-size: 3rem;
+    width: 58%;
+  }
+}

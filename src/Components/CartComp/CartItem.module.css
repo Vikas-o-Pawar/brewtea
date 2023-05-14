@@ -1,0 +1,60 @@
+.cartItemMainSection {
+  background-color: white;
+  padding: 1.1rem 1.1rem;
+}
+
+.cartItem-DescDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.horizontalLineDiv {
+    border-top: 1px solid gainsboro;
+    margin: 0.9rem 0rem;
+}
+
+.cartItem-Desc {
+  margin: 0rem 0.9rem;
+  font-weight: bold;
+  width: 21vw;
+  font-size: 1.1rem;
+}
+
+.cartItem-ImgDiv img {
+  width: 9vw;
+}
+
+
+.cartItemsQuantityDiv span {
+    font-weight: bold;
+}
+
+.cartItemValueDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.removeSpan {
+    color: brown;
+    font-weight: bold;
+}
+
+.removeItemBtn, .addItemBtn {
+    margin: 0rem .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.priceDiv {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.5rem;
+}
+
+.itemFinalPriceDiv {
+    font-weight: bold;
+
+}

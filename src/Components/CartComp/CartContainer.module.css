@@ -1,0 +1,76 @@
+.mainCartSection {
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+}
+
+.itemCountDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fdd144;
+  padding: 1rem 0rem;
+}
+
+.itemCountDiv span {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.cancelBtn {
+  background-color: #fff;
+  width: 3vw;
+  height: 6vh;
+  border-radius: 21px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cartItemDiv {
+  background-color: #eeeeee;
+  padding: 0.5rem 0.5rem;
+}
+
+.cartFooterDiv {
+  display: flex;
+  flex-direction: column;
+  background-color: #fdd144;
+  padding: 3.1rem 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cartTotalDiv {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.cartTotalDiv p {
+  margin-bottom: 0.8rem;
+}
+
+.cartButtonsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.goToTrolleyBtn {
+  background-color: #fff;
+  font-style: Gotham, sans-serif;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 0.8rem 4rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.checkOutBtn {
+  font-style: Gotham, sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 0.8rem 4rem;
+}

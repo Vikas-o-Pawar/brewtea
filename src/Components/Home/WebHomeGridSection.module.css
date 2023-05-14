@@ -1,0 +1,96 @@
+.mainGridSec {
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 1349px;       */
+  max-width: 2040px;
+  padding: 0px 36px;
+}
+
+.mainGridSec div {
+  text-align: center;
+}
+
+.homeImages {
+  width: 266px;
+  height: 201px;
+}
+
+@media (max-width: 425px) {
+  .gridDiv1 {
+    grid-area: one;
+  }
+
+  .gridDiv2 {
+    grid-area: two;
+  }
+
+  .gridDiv3 {
+    grid-area: three;
+  }
+
+  .gridDiv4 {
+    grid-area: four;
+  }
+
+  .mainGridSec {
+    width: 1263px;
+    padding: 0px 0px;
+    display: grid;
+    grid-template-areas:
+      "one two"
+      "three four";
+  }
+
+  .mainGridSec .homeImages {
+    width: 85%;
+    height: 67%;
+  }
+
+  .gridDiv1 h1,
+  .gridDiv2 h1,
+  .gridDiv3 h1,
+  .gridDiv4 h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .gridDiv1 {
+    grid-area: one;
+  }
+
+  .gridDiv2 {
+    grid-area: two;
+  }
+
+  .gridDiv3 {
+    grid-area: three;
+  }
+
+  .gridDiv4 {
+    grid-area: four;
+  }
+
+  .mainGridSec {
+    width: 1263px;
+    padding: 0px 0px;
+    display: grid;
+    grid-template-areas:
+      "one two"
+      "three four";
+  }
+
+  .mainGridSec .homeImages {
+    width: 85%;
+    height: 67%;
+  }
+
+  .gridDiv1 h1,
+  .gridDiv2 h1,
+  .gridDiv3 h1,
+  .gridDiv4 h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+}

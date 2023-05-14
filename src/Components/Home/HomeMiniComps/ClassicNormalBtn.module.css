@@ -1,0 +1,34 @@
+.ClassicNormalBtnClass {
+  font-size: 14px;
+  border: 1px solid black;
+  background-color: white;
+  padding: 14px 20px;
+  cursor: pointer;
+  margin-right: 0.7em;
+  margin-bottom: 0.7em;
+  border-radius: 8px;
+}
+
+.ClassicNormalBtnClassActive {
+  font-size: 14px;
+  border: 1px solid black;
+  background-color: #fbb144;
+  padding: 14px 31px;
+  cursor: pointer;
+  margin-right: 0.7em;
+  margin-bottom: 0.7em;
+  border-radius: 8px;
+}
+
+@media (max-width: 320px) {
+  .ClassicNormalBtnClass {
+    font-size: 3rem;
+    border: 1px solid black;
+    background-color: white;
+    padding: 25px 41px;
+    cursor: pointer;
+    margin-right: 0.7em;
+    margin-bottom: 0.7em;
+    border-radius: 8px;
+  }
+}

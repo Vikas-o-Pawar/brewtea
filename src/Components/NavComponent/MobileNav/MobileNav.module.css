@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mobileNavSection {
+  background-color: hsl(46, 98%, 63%);
+  position: absolute;
+  height: 400vh;
+  top: 0rem;
+  left: 0rem;
+  width: 393vw;
+  z-index: 3;
+  padding: 35px 45px;
+}
+
+.mobileHeaderNav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mobileHeaderNav h2 {
+  font-size: 8rem;
+}
+
+#closeBtn {
+  font-size: 7rem;
+  background: #fdd144;
+}
+
+.mobileNavbar {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: space-around;
+  margin: 2rem 2.4rem;
+}
+
+.mobileNavbar li a {
+  text-decoration: none;
+  font-size: 9rem;
+  color: black;
+  font-weight: 500;
+  font-family: "Coooper";
+}
+
+.userInputDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 73vh;
+}
+
+.mobileNavSearch {
+  height: 27vh;
+  background: #fdd144;
+  border: 3px solid black;
+  border-radius: 86px;
+  font-size: 4rem;
+}
+
+.mobileNavSearch::placeholder {
+  font-size: 6rem;
+  padding: 1px 10px;
+}
+
+.signInBtn {
+  height: 27vh;
+  background: #000;
+  border: 3px solid black;
+  border-radius: 86px;
+  font-size: 4rem;
+}
+
+.spanHorizontalLine {
+  border-top: 14px solid black;
+  height: 10vh;
+  width: 371vw;
+  display: block;
+}
+
+.footerSpan {
+  font-size: 5.9rem;
+}

@@ -1,0 +1,318 @@
+.mainClassicSection {
+  margin-top: 7rem;
+}
+
+.mainClassicSectionMini {
+  /* display: flex;
+  justify-content: space-evenly; */
+  display: grid;
+  grid-template-areas:
+    "mainOne mainTwo"
+    "mainOne mainTwo";
+  justify-content: space-evenly;
+}
+
+.leftClassic-Div {
+  display: flex;
+  flex-direction: column;
+  max-width: 379px;
+  grid-area: mainOne;
+  justify-content: space-around;
+}
+
+.leftClassic-Div h1 {
+  font-size: 4rem;
+  font-family: "Cooper";
+}
+
+.mainQuantityDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quantityDiv {
+  max-width: 126px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.quantityBtnDiv {
+  max-width: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quantityBtnSubDiv {
+  display: flex;
+  align-items: center;
+}
+
+.quantityBtnDiv button {
+  background-color: white;
+  border: none;
+  font-size: 31px;
+  color: gray;
+}
+
+.trolleyBtnDiv {
+  max-width: 179px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addToTrolleyBtn {
+  cursor: pointer;
+  border-radius: 31px;
+  padding: 25px 33px;
+}
+
+#strongMaltySpan {
+  font-family: "Cooper";
+}
+
+#activeBtn {
+  font-size: 14px;
+  border: 1px solid black;
+  padding: 14px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #fdd144;
+}
+
+.img2Class {
+  width: 351px;
+  height: 431px;
+  border-radius: 10px;
+  grid-area: one;
+}
+
+.img1Class {
+  width: 351px;
+  height: 292px;
+  border-radius: 10px;
+  grid-area: two;
+}
+
+.img3Class {
+  grid-area: three;
+  width: 351px;
+  height: 292px;
+  border-radius: 10px;
+}
+
+.minirightClassDiv {
+  grid-area: four;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightClassicMainDiv {
+  margin-top: 9rem;
+}
+
+.rightClassic-Div {
+  display: grid;
+  grid-template-areas:
+    "one two"
+    "one two"
+    "one three"
+    "four three";
+  grid-gap: 1.8rem;
+  grid-area: mainTwo;
+  max-height: 584px;
+}
+
+@media (max-width: 320px) {
+  .mainClassicSection {
+    width: 1349px;
+  }
+
+  .mainClassicSectionMini {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftClassic-Div {
+    order: 2;
+    max-width: 1172px;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    position: relative;
+    top: -4rem;
+    z-index: 1;
+    left: 4rem;
+    background: white;
+  }
+
+  .teaSec-1 {
+    margin: 2rem 2.4rem;
+  }
+
+  .teaSec-2 {
+    margin: 0rem 2.4rem;
+  }
+
+  .leftClassic-Div h1 {
+    font-size: 16rem;
+    margin: 6rem 2.4rem;
+  }
+
+  .leftClassic-Div h4 {
+    font-weight: 400;
+    font-size: 4rem;
+  }
+  .classicTextDiv h3 {
+    font-size: 4rem;
+    margin: 0rem 2.4rem;
+  }
+
+  #strongMaltySpan {
+    font-size: 3rem;
+    margin: 0.5rem 2.4rem;
+  }
+
+  #reviewSpan {
+    font-size: 3rem;
+  }
+
+  .leftClassic-Div p {
+    display: none;
+  }
+
+  #activeBtn {
+    font-size: 3rem;
+    border: 1px solid black;
+    background-color: #fdd144;
+    padding: 25px 40px;
+    cursor: pointer;
+    margin-right: 0.7em;
+    margin-bottom: 0.7em;
+    border-radius: 8px;
+  }
+
+  .quantityBtnDiv span {
+    font-size: 7rem;
+    margin: 1rem 0rem;
+  }
+
+  #amountMainSpan {
+    font-size: 6rem;
+  }
+
+  .quantityBtnSubDiv button {
+    font-size: 8rem;
+  }
+
+  .trolleyBtnDiv .addToTrolleyBtn {
+    cursor: pointer;
+    border-radius: 31px;
+    padding: 25px 73px;
+    margin-left: -7rem;
+    font-size: 3rem;
+  }
+
+  .trolleyBtnDiv a {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .mainClassicSection {
+    width: 1349px;
+    border: 2px solid red;
+  }
+
+  .mainClassicSectionMini {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leftClassic-Div {
+    order: 2;
+    max-width: 1172px;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    position: relative;
+    top: -4rem;
+    z-index: 1;
+    left: 4rem;
+    background: white;
+  }
+
+  .teaSec-1 {
+    margin: 2rem 2.4rem;
+  }
+
+  .teaSec-2 {
+    margin: 0rem 2.4rem;
+  }
+
+  .leftClassic-Div h1 {
+    font-size: 16rem;
+    margin: 6rem 2.4rem;
+  }
+
+  .leftClassic-Div h4 {
+    font-weight: 400;
+    font-size: 4rem;
+  }
+  .classicTextDiv h3 {
+    font-size: 4rem;
+    margin: 0rem 2.4rem;
+  }
+
+  #strongMaltySpan {
+    font-size: 3rem;
+    margin: 0.5rem 2.4rem;
+  }
+
+  #reviewSpan {
+    font-size: 3rem;
+  }
+
+  .leftClassic-Div p {
+    display: none;
+  }
+
+  #activeBtn {
+    font-size: 3rem;
+    border: 1px solid black;
+    background-color: #fdd144;
+    padding: 25px 40px;
+    cursor: pointer;
+    margin-right: 0.7em;
+    margin-bottom: 0.7em;
+    border-radius: 8px;
+  }
+
+  .quantityBtnDiv span {
+    font-size: 7rem;
+    margin: 1rem 0rem;
+  }
+
+  #amountMainSpan {
+    font-size: 6rem;
+  }
+
+  .quantityBtnSubDiv button {
+    font-size: 8rem;
+  }
+
+  .trolleyBtnDiv .addToTrolleyBtn {
+    cursor: pointer;
+    border-radius: 31px;
+    padding: 25px 73px;
+    margin-left: -7rem;
+    font-size: 3rem;
+  }
+
+  .trolleyBtnDiv a {
+    font-size: 2rem;
+  }
+}

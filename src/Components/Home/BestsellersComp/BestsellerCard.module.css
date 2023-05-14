@@ -1,0 +1,40 @@
+.cardMainSec {
+  /* box-shadow: -6px 10px 21px 12px #888888; */
+  width: 17vw;
+}
+
+.cardImg {
+  height: 37vh;
+  width: 17vw;
+}
+
+.card-ItemName {
+  /* background-color: #da432f; */
+  height: 7vh;
+  display: flex;
+  margin-top: -0.3rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.card-desc {
+  background-color: white;
+  font-family: cursive;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardReview-Price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.cardReview {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,38 @@
+.mainNav {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.mySpan {
+  border: 1px solid black;
+  width: 22px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 425px) {
+  .mySpan {
+    border: 3px solid black;
+    width: 69px;
+    height: 2px;
+    display: inline-block;
+    margin-bottom: 11px;
+    background-color: #000;
+  }
+
+  
+
+
+}
+
+@media (max-width: 320px) {
+  .mySpan {
+    border: 1px solid black;
+    width: 48px;
+    height: 2px;
+    display: inline-block;
+    margin-bottom: 11px;
+    background-color: #000;
+  }
+}
