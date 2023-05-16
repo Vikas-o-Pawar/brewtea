@@ -25,6 +25,6 @@ export default function NavItems(props) {
     <li onMouseEnter={onMouseEnterHandler} onMouseLeave={onMouseLeaveHandler} className={classes.list}>
         <a href="/" className={classes.tag}>{props.itemName}</a>
     </li>
-    
+   
   )
 }

@@ -6,7 +6,7 @@ import NavAboutItem from '../NavSubItemsComp/NavAboutItem'
 
 export default function NavSubItemsCard(props) {
     const[itemHovered, setItemHovered] = useState(true);
-    
+
     const enterItemHoveredHandler = () => {
       setItemHovered(true);
       console.log(itemHovered);

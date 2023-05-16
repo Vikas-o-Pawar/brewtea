@@ -80,8 +80,8 @@ export default function Navbar(props) {
             </div>
 
 
-            {navhovered === true && name !== "BREW COINS" && name !== "SUBSCRIBE" && <NavSubItemsCard navItemName={name}
-                megaNavHover={megaNavHoverHandler} />}
+            {/* {navhovered === true && name !== "BREW COINS" && name !== "SUBSCRIBE" && <NavSubItemsCard navItemName={name}
+                megaNavHover={megaNavHoverHandler} />} */}
 
             {/* <NavSubItemsCard navItemName = {'ABOUT'} >
             
